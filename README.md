@@ -1,8 +1,10 @@
-**This repo is supposed to used as config by NvChad users!**
+**This is my Nvim (With NvChad) config file. Feel free to**
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+# Features:
+
+- Custom mappings (Will constantly update it for easy navigation)
+- LSP configs 
+- Overrides (Change the bg to your desired base46 theme)
 
 # Credits
 
