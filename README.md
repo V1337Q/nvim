@@ -1,4 +1,4 @@
-**This is my Nvim (With NvChad) config file. Feel free to**
+**This is my Nvim (With NvChad) config file. Feel free to clone it ^_^**
 
 # Features:
 
