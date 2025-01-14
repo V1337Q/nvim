@@ -11,6 +11,8 @@ vim.api.nvim_set_keymap("n", "ZZ", ":wq!<CR>", { noremap = true, silent = true }
 vim.api.nvim_set_keymap("n", "QQ", ":qa!<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "QZ", ":w!<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "QZ", ":w!<CR>", { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap('n', '<Leader>o', 'o<Esc>', { noremap = true, silent = true })
 -- vim.api.nvim_set_keymap("v", "ZJ", ":m-2<CR>", { noremap = true, silent = true })
 -- vim.api.nvim_set_keymap("v", "ZK", ":m+1<CR>", { noremap = true, silent = true })
 

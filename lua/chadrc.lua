@@ -71,7 +71,7 @@ M.ui = {
     load_on_startup = true,
   },
   tabufline = {
-    enabled = false,
+    enabled = true,
     show_numbers = true,
   },
 
