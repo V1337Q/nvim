@@ -13,6 +13,14 @@ vim.opt.rtp:prepend(lazypath)
 
 local lazy_config = require "configs.lazy"
 
+vim.diagnostic.config({
+  virtual_text = true,  -- Show diagnostics as inline text
+  signs = true,         -- Show signs in the gutter
+  float = true,         -- Show diagnostics in floating windows
+  underline = true,     -- Underline diagnostics
+  update_in_insert = false, -- Update diagnostics while typing
+})
+
 -- load plugins
 require("lazy").setup({
   {

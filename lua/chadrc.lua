@@ -27,6 +27,8 @@ M.base46 = {
     -- NvimTreeCursorLine = { bg = "#373B41"},
     -- NvimTreeCursorLine = { bg = "#171823"},
     NvimTreeCursorLine = { bg = "#282b2c"},
+    
+    
 
     -- NavicSeparator = { bg = "11121D"},
     -- NvimTreeFolderArrowOpen = { bg = "#11121D"},
@@ -64,7 +66,7 @@ M.base46 = {
 M.ui = {
 	theme = "tomorrow_night",
   statusline = {
-    theme = "default",
+    theme = "minimal",
     separator_style = "block",
   },
   nvdash = {
