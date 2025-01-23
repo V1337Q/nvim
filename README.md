@@ -23,6 +23,10 @@
 
 - Move the nvconfig.lua file into your ~/.local/share/nvim/lazy/ui/lua/ directory
 
+# Clean background color.
+
+![Alt text](./images/Verum-nvim2.png)
+
 # Reminder
 
 **Do not forget to backup your existing neovim config. In case something go wrong and you want to go back.**
