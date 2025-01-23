@@ -10,6 +10,8 @@
 
 - Hop.nvim by smoka7
 
+![Alt text](./images/hop-nvim.gif)
+
 # Installation:
 
 - clone this repo
