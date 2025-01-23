@@ -18,6 +18,9 @@
 
 # Custom dashboard:
 
+
+![Alt text](./images/Verum-nvim.png)
+
 - Move the nvconfig.lua file into your ~/.local/share/nvim/lazy/ui/lua/ directory
 
 # Reminder
