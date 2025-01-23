@@ -27,7 +27,22 @@ M.base46 = {
     -- NvimTreeCursorLine = { bg = "#373B41"},
     -- NvimTreeCursorLine = { bg = "#171823"},
     NvimTreeCursorLine = { bg = "#282b2c"},
-    
+    -- NvimTreeNormal = { bg = "#282828" },
+    -- NvimTreeNormalNC = { bg = "#282828"},
+    -- NvimTreeWinSeparator = { bg = "#282828"},
+    -- WinSeparator = { bg = "#282828"},
+    -- BufferLineSeparator = { bg = "#282828" },
+    -- WhichKeySeparator = { bg = "#282828" },
+    -- BufferLineSeparatorVisible = { bg = "#282828" },
+    -- BufferLineSeparatorSelected = { bg = "#282828" },
+    -- LineNr = { bg = "282828" },
+    -- NvimTreeOpenedFolderName = { bg = "#282828" },
+    -- DapUILineNumber = { bg = "#282828" },
+    -- BufferLineBackground = { bg = "#282828" },
+    -- -- NvimTreeCursorLine = { bg = "#373B41"},
+    -- -- NvimTreeCursorLine = { bg = "#171823"},
+    -- NvimTreeCursorLine = { bg = "#353535"},
+    --
     
 
     -- NavicSeparator = { bg = "11121D"},
