@@ -16,6 +16,10 @@
 - you can either copy the files into your .config/nvim directory,
 - or just rename the directory to nvim, and then copy it to ~/.config 
 
+# Custom dashboard:
+
+- Move the nvconfig.lua file into your ~/.local/share/nvim/lazy/ui/lua/ directory
+
 # Reminder
 
 **Do not forget to backup your existing neovim config. In case something go wrong and you want to go back.**
