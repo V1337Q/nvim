@@ -58,21 +58,39 @@ local options = {
     --   "                            ",
     -- },
     header = {
-      "   _     _   __  ",
-      "  / //7.' / / /  ",
-      " /  ,'/ o // /   ",
-      "/_/\\/_n_//_/    ",
-      "                 ",
-      " Verum Quaerite  ",
-      "                 ",
-    },
+"                                                                 ",
+"                                                                 ",
+"                                                                 ",
+"████                                                           ",
+" ████    █                                                    ",
+"  ████  ██            █████████                            ",
+"   ████████  ████████████  ██            █████  ██   ",
+"     ████████   ███    ███  █████  ██ ███████████ ",
+"     ███████  ████████████████  ██ ██ ██  ██  ██  ",
+"      ██████  ███    █████   █████ ██  ██  ██   ",
+"       ████████████████  ███ █████████  ██  ██    ",
+"                                                                 ",
+"                                                                 ",
+"                       Github@VerumQuaerite                      ",
+"                                                                 ",
+"                                                                 ",
+"                                                                 ",
+"                             eovim                              ",
+"                                                                 ",
+"                                                                 ",
+     },
 
     buttons = {
-      { txt = "  Find File", keys = "ff", cmd = "Telescope find_files" },
-      { txt = "  Recent Files", keys = "fo", cmd = "Telescope oldfiles" },
-      { txt = "󰈭  Find Word", keys = "fw", cmd = "Telescope live_grep" },
-      { txt = "󱥚  Themes", keys = "th", cmd = ":lua require('nvchad.themes').open()" },
+      { txt = "  Temukan File", keys = "ff", cmd = "Telescope find_files" },
+      { txt = "  File Terbaru", keys = "fo", cmd = "Telescope oldfiles" },
+      { txt = "󰈭  Temukan Kata", keys = "fw", cmd = "Telescope live_grep" },
+      { txt = "󱥚  Tema", keys = "th", cmd = ":lua require('nvchad.themes').open()" },
       { txt = "  Mappings", keys = "ch", cmd = "NvCheatsheet" },
+      -- { txt = "  Find File", keys = "ff", cmd = "Telescope find_files" },
+      -- { txt = "  Recent Files", keys = "fo", cmd = "Telescope oldfiles" },
+      -- { txt = "󰈭  Find Word", keys = "fw", cmd = "Telescope live_grep" },
+      -- { txt = "󱥚  Themes", keys = "th", cmd = ":lua require('nvchad.themes').open()" },
+      -- { txt = "  Mappings", keys = "ch", cmd = "NvCheatsheet" },
 
       { txt = "─", hl = "NvDashFooter", no_gap = true, rep = true },
 
@@ -122,3 +140,4 @@ local options = {
 
 local status, chadrc = pcall(require, "chadrc")
 return vim.tbl_deep_extend("force", options, status and chadrc or {})
+
