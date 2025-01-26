@@ -1,5 +1,7 @@
 **This is my Nvim (With NvChad) config file. Feel free to clone it ^_^**
 
+# So, my NvChad config just broke all of a sudden. And i'm too lazy to fix it. So i'm currently trying out (or coming back tbf) to Lazyvim. So it's more likely that i will not update the "mappings for easy navigation" thing. But if someday i decided to come back to using NvChad, i will do it regardlessly.
+
 # Features:
 
 - Custom mappings (Will constantly update it for easy navigation)
