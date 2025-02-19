@@ -18,10 +18,10 @@ So, my NvChad config just broke all of a sudden. And i'm too lazy to fix it. So 
 
 - clone this repo
 - run the install script
-'''
-chmod +x install.sh | ./install.sh
 
-'''
+```Bash
+chmod +x install.sh | ./install.sh
+```
 
 # Custom dashboard:
 
