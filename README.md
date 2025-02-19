@@ -17,8 +17,11 @@ So, my NvChad config just broke all of a sudden. And i'm too lazy to fix it. So 
 # Installation:
 
 - clone this repo
-- you can either copy the files into your .config/nvim directory,
-- or just rename the directory to nvim, and then copy it to ~/.config 
+- run the install script
+'''
+chmod +x install.sh | ./install.sh
+
+'''
 
 # Custom dashboard:
 
