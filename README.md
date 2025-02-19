@@ -22,6 +22,12 @@ So, my NvChad config just broke all of a sudden. And i'm too lazy to fix it. So 
 ```Bash
 chmod +x install.sh | ./install.sh
 ```
+- Move the files inside .local.share.nvim.lazy.lua to ~/.local/share/nvim/lazy/lua 
+- Run nvim
+
+```Bash
+nvim
+```
 
 # Custom dashboard:
 
